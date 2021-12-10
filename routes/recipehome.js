@@ -49,7 +49,7 @@ app.post('/create-recipe', upload.single('image'), function (req, res) {
       description: req.body.description,
       step: req.body.step,
       ingredients: req.body.ingredients,
-      img: req.file.filename,
+      image: req.file.filename,
     },
 
     function (err, newrecipe) {

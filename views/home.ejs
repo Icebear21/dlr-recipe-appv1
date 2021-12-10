@@ -43,7 +43,6 @@
                   <input type="file" id="image" name="image" class=" text-black">
                   <form action="/recipehome/create-recipe" method="POST" enctype="multipart/form-data"></form>
                      
-                     <!-- <td><input type="submit"></td> -->
                      
                    </form></td>
                  
@@ -76,9 +75,9 @@
           <tr>
             
             <td> <input type="checkbox" name="<%= i._id %>"></td>
-             <td> <p id="recipe-description"><%= i.description %></td>
-             <td> <p id="recipe-step"><%= i.step %></td>
-             <td> <p id="recipe-ingredients"><%= i.ingredients %></td>
+             <td> <p  id="recipe-description"><%= i.description %></td>
+             <td> <p  id="recipe-step"><%= i.step %></td>
+             <td> <p  id="recipe-ingredients"><%= i.ingredients %></td>
             
           </tr>
            <% } %>
